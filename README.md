@@ -11,9 +11,9 @@
     "password": "password123"
   }
   ```
-  - To change credentials, access _\Endpoints\AuthenticationEndpointsExtensions.cs_ and modify this `if` statment as needed:
-      ```
-      if (userModel.Name == "user-test" && userModel.Password == "password123")
-      [...]
-      ````
-    A response token will be genetared. Use it in the Authorize section of the page (upper right corner)
+ - To change credentials, access _\Endpoints\AuthenticationEndpointsExtensions.cs_ and modify this `if` statment as needed:
+  ```
+  if (userModel.Name == "user-test" && userModel.Password == "password123")
+  [...]
+  ````
+  A response token will be genetared. Use it in the Authorize section of the page (upper right corner)
